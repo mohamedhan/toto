@@ -12,7 +12,10 @@ const User = require ('../../models/User');
 router.post('/',[
   auth, 
   [
-check('text', 'Text is required').not().isEmpty()
+check('text', 'Text is required').not().isEmpty(),
+check('img', 'Image is required').not().isEmpty(),
+check('place', 'Place is required').not().isEmpty()
+
 ]
 ],
 async (req, res)=> {
@@ -27,6 +30,8 @@ try {
 
   const newPost = new Post ( {
     text: req.body.text,
+    img: req.body.img,
+    place: req.body.place,
     name: user.name,
     avatar: user.avatar,
     user: req.user.id

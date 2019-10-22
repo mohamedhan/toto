@@ -10,6 +10,14 @@ text: {
   type: String,
   required: true
 },
+place: {
+  type: String,
+  required: true
+},
+img: {
+  type: String,
+  required: true
+},
 name: {
   type: String
 },
