@@ -1,0 +1,149 @@
+::-webkit-scrollbar {
+  display: none;
+  }
+.commentContainer{
+  display : flex;
+  align-items: baseline;
+  margin-top: 20px;
+}
+.MuiGrid-spacing-xs-4 {
+  width: calc(100% + 16px) !important;
+  
+}
+.justDiv{
+  margin-bottom: 20px;
+}
+.MuiCard-root {
+  overflow: hidden;
+  min-width: 100%;
+}
+.cardsContainer{
+  display:flex;
+  flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+
+}
+.todo-header {
+  background-color: #4696e5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 30px 50px;
+}
+.todo-header h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.todo-header h3 {
+  font-size: 13px;
+}
+.new-task {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #4696e5;
+  margin: 15px 0;
+  font-weight: 600;
+}
+.new-task::placeholder {
+  color: rgba(70, 150, 229, 0.35);
+}
+.add-button {
+  padding: 15px!important;
+  background-color: #00281F!important;
+  border: 1px solid!important;
+  color: #fff!important;
+  border-radius: 35%;
+  margin: 0 20px;
+ 
+}
+.display-tasks {
+  background-color: #fbfbfb;
+  color: #838383;
+  /* margin: 55px 80px; */
+  font-weight: 600;
+}
+.display-tasks h2 {
+  text-align: center;
+}
+hr {
+  width: 50px;
+  margin: 35px auto;
+  border: 1px solid #ebebeb;
+}
+.tasks-list li {
+  margin: 20px;
+  list-style: none;
+}
+.task-button {
+  background: none;
+  padding: 7px;
+  border: 1px solid #8383839f;
+  color: inherit;
+  font-weight: inherit;
+}
+.task {
+  font-size: 20px;
+  vertical-align: middle;
+  width: 100%;
+  overflow: auto;
+}
+.completed-task {
+  text-decoration: line-through;
+}
+input[name='edit'] {
+  padding: 6px;
+  margin: 0 10px;
+}
+.bg-primaryt {
+  background-color: #7B895B ;
+  padding:10px 5px;
+  color: #fff;
+}
+.tasks-list{
+  width: 50%;
+}
+.comments-section {
+  width: 80%;
+  height: auto;
+}
+.commentx {
+  
+  width: 200%;
+  align-items: center;
+  display: flex;
+  overflow-wrap: break-word;
+}
+.submitComment{
+  color : red;
+}
+.btnPlus{
+  margin: 9px;
+}
+.deletet{
+  padding: 15px!important;
+ 
+  border: 1px red solid!important;
+  width: 70px;
+  color: red!important;
+  border-radius: 35%;
+  margin-right: 5px ;
+  /* height: 20px; */
+ 
+}
+.editet{
+  padding: 15px!important;
+  width: 70px;
+  border: 1px green solid!important;
+  color: green!important;
+  border-radius: 35%;
+  margin-right: 5px ;
+  /* height: 20px; */
+}
+.ombres_multiples_diffuses {
+  box-shadow: inset 0 0 1em #BEA42E, 0 0 2em #7B895B ! important;
+  /* deux ombres dans la liste et des rayons de flou pour chacune */
+}
